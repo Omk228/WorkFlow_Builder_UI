@@ -1,5 +1,5 @@
 import React from 'react';
-import { NODE_TYPES } from '../../utils/constants';
+import { NODE_TYPES } from '../../utils/constants.js';
 import './Node.css';
 
 const Node = ({ data, onAdd, onDelete, onEdit }) => {

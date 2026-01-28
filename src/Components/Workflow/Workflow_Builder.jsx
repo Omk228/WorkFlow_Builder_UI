@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { initialWorkflow } from '../../utils/mockData';
+import { initialWorkflow } from '../../utils/mockData.js';
 import {
   addNodeToTree,
   deleteNodeFromTree,
   editNodeLabel
-} from '../../utils/treeHelpers';
+} from '../../utils/treeHelpers.js';
 
-import { NODE_TYPES } from '../../utils/constants';
+import { NODE_TYPES } from '../../utils/constants.js';
 import Node from './Node.jsx';
 import './Workflow_Builder.css';
 
